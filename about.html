@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Eugene 🩽</title>
+    <style>
+        /* 1. 눈이 편안한 파스텔 블루 배경 */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f7fbfc; /* 아주 연한 베이스 */
+            color: #4a5568; /* 눈 안 아픈 짙은 그레이 */
+            font-family: 'Pretendard', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* 2. 유진이 픽한 #B3EBF2 활용한 카드 */
+        .about-card {
+            background: white;
+            width: 90%;
+            max-width: 500px;
+            padding: 2.5rem;
+            border-radius: 40px; /* 둥글둥글하게! */
+            border: 3px solid #B3EBF2; /* 유진's Pick 컬러! 🩵 */
+            box-shadow: 0 15px 35px rgba(179, 235, 242, 0.3);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .about-card:hover {
+            transform: scale(1.02); /* 마우스 올리면 살짝 커지는 효과 */
+        }
+
+        h1 {
+            color: #7abccb; /* 블루 톤에 맞춘 차분한 제목 */
+            font-size: 1.8rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* 3. 취미/특징 리스트 스타일 */
+        .tag-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 20px 0;
+        }
+
+        .tag {
+            background-color: #B3EBF2; /* 유진's Pick 컬러! */
+            color: #446a73;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+        }
+
+        .description {
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 2rem;
+            word-break: keep-all;
+        }
+
+        /* 4. 돌아가기 버튼 */
+        .back-btn {
+            display: inline-block;
+            text-decoration: none;
+            color: #888;
+            font-size: 0.9rem;
+            border-bottom: 1px solid #ccc;
+            transition: all 0.3s;
+        }
+
+        .back-btn:hover {
+            color: #B3EBF2;
+            border-bottom: 1px solid #B3EBF2;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="about-card">
+        <h1>ABOUT EUGENE 🪽</h1>
+        
+        <div class="description">
+            안녕하세요! 졸업을 앞둔 <span style="color:#7abccb; font-weight:bold;">예비 방구석 CEO</span> 유진입니다. 🎓<br>
+            좋아하는 것들을 모아 나만의 공간을 만드는 중이에요.
+        </div>
+
+        <div class="tag-container">
+            <span class="tag">🎧 음악</span>
+            <span class="tag">📚 독서</span>
+            <span class="tag">🚶🏻‍♀️ 산책</span>
+            <span class="tag">🎬 정주행</span>
+            <span class="tag">🐈 샤샤</span>
+        </div>
+
+        <p style="font-size: 0.85rem; color: #999;">"내가 좋아하는 것들이 곧 나의 스펙입니다."</p>
+        
+        <br>
+        <a href="index.html" class="back-btn">거실(메인)로 돌아가기</a>
+    </div>
+
+</body>
+</html>
